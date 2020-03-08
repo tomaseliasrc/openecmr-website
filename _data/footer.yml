@@ -1,39 +1,29 @@
 - links:
   - name: Pricing
     link: /pricing/
-  - name: Blog
-    link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
 - links:
   - name: Login
-    link: /
+    link: https://app.openecmr.com/
     new_window: true
   - name: Sign Up
-    link: /
+    link: https://app.openecmr.com/
     new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
-- links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
-    new_window: true
-    social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/cloudcannon/
-    social_icon: Twitter
-    new_window: true
-  - name: YouTube
-    link: https://youtube.com/cloudcannon/
-    social_icon: YouTube
-    new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
+  - name: Install app
+    link: https://play.google.com/store/apps/details?id=com.ecmrapp
+#- links:
+#  - name: Facebook
+#    link: https://facebook.com/cloudcannon/
+#    new_window: true
+#    social_icon: Facebook
+#  - name: Twitter
+#    link: https://twitter.com/cloudcannon/
+#    social_icon: Twitter
+#    new_window: true
+#  - name: YouTube
+#    link: https://youtube.com/cloudcannon/
+#    social_icon: YouTube
+#    new_window: true
+#  - name: RSS
+#    link: /feed.xml
+#    social_icon: RSS
+#    new_window: false
