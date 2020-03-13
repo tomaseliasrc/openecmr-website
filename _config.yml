@@ -40,6 +40,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      sitemap: false
       _options:
         content:
           width: 1500
@@ -49,6 +50,7 @@ defaults:
       path: ""
       type: "staff_members"
     values:
+      sitemap: false
       _options:
         image_path:
           width: 600
@@ -67,11 +69,17 @@ defaults:
     scope:
       path: "contact.html"
     values:
+      sitemap: false
       full_width: true
+  -
+    scope:
+      path: "/category/**"
+    values:
+      sitemap: false
 
-jekyll-archives:
-  enabled:
-    - categories
+#jekyll-archives:
+#  enabled:
+#    - categories
 
 plugins:
   - jekyll-archives
