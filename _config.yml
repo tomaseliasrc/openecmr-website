@@ -12,13 +12,14 @@ disqus_shortname:
 logo: /siteicon.png
 description: Open e-CMR - digital transport management for carriers and shippers
 author:
-  name:
-  email:
+  name: Open e-CMR
+  email: info@openecmr.com
   twitter: # twitter username without the @ symbol
 social:
   name:
   links:
     - https://www.openecmr.com
+languages: ["en", "nl"]
 
 # -----
 # Build
@@ -87,6 +88,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-multiple-languages-plugin
 
 exclude:
   - Gemfile

@@ -12,4 +12,12 @@
 		{% endif %}
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
 	{% endfor %}
+
+	{% if site.lang == "nl" %}
+	{% capture link1 %}{{ page.url}}{% endcapture %}
+	<a href="{{ link1 }}" >en</a>
+	{% elsif site.lang == "en" %}
+	{% capture link2 %}/nl{{ page.url  }}{% endcapture %}
+	<a href="{{ link2 }}" >nl</a>
+	{% endif %}
 </nav>
