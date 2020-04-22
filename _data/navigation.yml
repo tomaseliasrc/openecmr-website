@@ -1,4 +1,4 @@
-- name: Pricing
+- name: nav.pricing
   link: /pricing/
   new_window: false
   highlight: false
@@ -14,11 +14,11 @@
 #  link: /contact/
 #  new_window: false
 #  highlight: false
-- name: Login
+- name: nav.login
   link: https://app.openecmr.com/
   new_window: false
   highlight: false
-- name: Sign Up
+- name: nav.signup
   link: https://app.openecmr.com/
   new_window: false
   highlight: true
