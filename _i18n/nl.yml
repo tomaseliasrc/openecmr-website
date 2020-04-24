@@ -1,7 +1,35 @@
 titles:
   index: Transportmanagement in de cloud
+  pricing: Kosten
 
 nav:
   pricing: Kosten
   login: Inloggen
   signup: Account maken
+
+footer:
+  install_app: App downloaden
+  sign_up: Account maken
+  login: Inloggen
+  pricing: Kosten
+
+pricing:
+  heading: Vind de juiste oplossing voor uw bedrijf
+  description: Iedere maand 100 gratis transportorders, voor altijd.
+  basic: Basic
+  basic_items:
+    0: Gratis
+    1: 100 transportorders per maand
+    2: 1 backoffice gebruiker
+    3: Ongelimiteerd aantal chauffeurs
+  basic_call_to_action: Begin nu
+  enterprise: Enterprise
+  enterprise_items:
+    0: alles uit Basis
+    1: "+"
+    2: integratie met uw bestaande ERP of TMS
+    3: "&nbsp;"
+  enterprise_call_to_action: Neem contact met ons op
+  questions: Verdere vragen?
+  questions_contact_us: Neem contact met ons op via <a href="mailto:info@openecmr.com">info@openecmr.com</a>.
+  faq: FAQ kosten

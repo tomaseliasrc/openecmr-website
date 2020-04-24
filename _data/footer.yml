@@ -1,14 +1,14 @@
 - links:
-  - name: Pricing
+  - name: footer.pricing
     link: /pricing/
 - links:
-  - name: Login
+  - name: footer.login
     link: https://app.openecmr.com/
     new_window: true
-  - name: Sign Up
+  - name: footer.sign_up
     link: https://app.openecmr.com/
     new_window: true
-  - name: Install app
+  - name: footer.install_app
     link: https://play.google.com/store/apps/details?id=com.ecmrapp
 #- links:
 #  - name: Facebook

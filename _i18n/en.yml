@@ -6,3 +6,30 @@ nav:
   pricing: Pricing
   login: Login
   signup: Sign up
+
+footer:
+  install_app: Install app
+  sign_up: Sign Up
+  login: Login
+  pricing: Pricing
+
+pricing:
+  heading: Find the perfect plan for your business
+  description: The first 100 transports per month are free, forever.
+  basic: Basic
+  basic_items:
+    0: free
+    1: 100 transports per month
+    2: Up to 1 backoffice user
+    3: Unlimited driver users
+  basic_call_to_action: Get started
+  enterprise: Enterprise
+  enterprise_items:
+    0: everything in Basic
+    1: "+"
+    2: integration with your ERP or TMS
+    3: "&nbsp;"
+  enterprise_call_to_action: Contact us
+  questions: Questions?
+  questions_contact_us: Contact us for any further questions at <a href="mailto:info@openecmr.com">info@openecmr.com</a>.
+  faq: Pricing FAQ

@@ -26,12 +26,12 @@ languages: ["en", "nl"]
 
 timezone: Etc/UTC
 
-collections:
-  staff_members:
-    _hide_content: true
+#collections:
+#  staff_members:
+#    _hide_content: true
 
-paginate: 10
-paginate_path: "/blog/:num/"
+#paginate: 10
+#paginate_path: "/blog/:num/"
 permalink: pretty
 
 defaults:
@@ -83,11 +83,7 @@ defaults:
 #    - categories
 
 plugins:
-  - jekyll-archives
   - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
   - jekyll-multiple-languages-plugin
 
 exclude:
@@ -95,6 +91,9 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - blog
+  - contact.html
+  - about.html
 
 # -----------
 # CloudCannon
